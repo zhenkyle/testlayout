@@ -359,9 +359,11 @@ store.subscribe(() => {
 })
 
 // render
+/*
 ReactDOM.render(
   <Provider store={store}>
     <AppRecipe />
   </Provider>,
   document.getElementById('root')
 )
+*/

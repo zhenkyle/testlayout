@@ -15,6 +15,7 @@
     <!-- endbuild -->
 
     <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
 
@@ -22,13 +23,34 @@
     <script src="/bower_components/modernizr/modernizr.js"></script>
     <!-- endbuild -->
   </head>
-  <body>
+  <body class="HolyGrail">
     <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <div class="container" id="root">
-    </div>
+  <header class="HolyGrail-header"><h3>Game of Life</h3></header>
+  <div class="HolyGrail-body">
+    <main class="HolyGrail-content">
+    <table>
+        <tr>
+            <td class="live"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    </main>
+  </div>
+  <footer class="HolyGrail-footer">♥ from the Zhenkyle</footer>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
