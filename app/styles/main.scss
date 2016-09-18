@@ -25,6 +25,10 @@
   width: 300px;
   margin-left: auto;
   margin-right: auto;
+  p {
+    margin-left: auto;
+    margin-right: auto;
+  }
   table {
     border-collapse: collapse;
     margin-left: auto;
@@ -36,9 +40,9 @@
       width: 50px;
       height: 50px;
       border: 1px solid;
-    }
-    td.live {
-      background-color: #eee;
+      &.live {
+        background-color: #eee;
+      }
     }
   }
 }
